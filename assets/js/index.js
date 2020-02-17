@@ -21,3 +21,12 @@ $('document').ready(function(){
   }
   setInterval(change_slide,speed);
 });
+
+function fadeoutPreloader(){
+  jQuery(".hameid-loader-overlay").fadeOut(500);
+}
+
+jQuery(window).load(function(){
+            setTimeout(fadeoutPreloader, 3000);
+
+        });
