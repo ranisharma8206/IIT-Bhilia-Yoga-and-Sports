@@ -1,0 +1,18 @@
+.responsive {
+  max-width: 200px;
+  height: auto;
+  position: relative;
+  left:10px;
+  top: 10px;
+}
+
+
+/* For small screens */
+@media (max-width: 767px) {
+
+}
+
+/* For large screens */
+@media (min-width: 767px) {
+  
+}
