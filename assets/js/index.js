@@ -27,6 +27,6 @@ function fadeoutPreloader(){
 }
 
 jQuery(window).load(function(){
-            setTimeout(fadeoutPreloader, 3000);
+            setTimeout(fadeoutPreloader, 1000);
 
         });
