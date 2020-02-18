@@ -20,6 +20,11 @@
   font-family: "Open Sans", sans-serif;
 
 }
+@media (max-width: 767px) {
+  .main_div {
+    height: 50vh;
+  }
+}
 
 .main_div .container {
   top: 50%;
